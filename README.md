@@ -60,7 +60,7 @@
 
 #### Local D1 database explorer with Drizzle Studio
 
-1. 'bun run db:studio:dev'
+1. `bun run db:studio:dev`
 
 ### Deployment to production
 
@@ -75,7 +75,7 @@ This will give you the benefit of seeing a live logfile in your terminal.
 1. Deploy to prod with `bun run deploy`.
 2. Update `.env` and `wrangler.toml` files `PUBLIC_BASE_URL=` with deployment URL.
 
-### Deploying from Cloudflare dashboard
+#### Deploying from Cloudflare dashboard
 
 This will give you the benefit of automatic deployments by committing to a remote git repository.
 
@@ -86,7 +86,6 @@ This will give you the benefit of automatic deployments by committing to a remot
    3. Deploy and verify that the deployment succeeds.
    4. Optionally configure a custom domain.
 
-## Use Drizzle Studio to browse your DB:
+#### Use Drizzle Studio to browse your production DB:
 
- - Local dev DB: `bun run db:studio:dev`
- - Remote production DB: `bun run db:studio:prod`
+ - `bun run db:studio:prod`
