@@ -1,5 +1,4 @@
 import path from "node:path";
-import { fileURLToPath } from "node:url";
 import fs from "node:fs";
 import type { Config } from "drizzle-kit";
 import { defineConfig } from "drizzle-kit";
