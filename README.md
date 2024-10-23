@@ -73,7 +73,7 @@
 3. Apply the DB migrations to the local DB: `bun run db:push:dev`
 4. Develop on local with `bun run dev`.
 
-#### Local D1 database explorer with Drizzle Studio
+#### Explore your local D1 database with Drizzle Studio
 
 1. `bun run db:studio:dev`
 
@@ -101,6 +101,6 @@ This will give you the benefit of automatic deployments by committing to a remot
    3. Deploy and verify that the deployment succeeds.
    4. Optionally configure a custom domain.
 
-#### Use Drizzle Studio to browse your production DB:
+#### Explore your production D1 database with Drizzle Studio
 
  - `bun run db:studio:prod`
